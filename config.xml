@@ -107,4 +107,10 @@
     <plugin name="cordova-plugin-inapppurchase" spec="^1.2.0" />
     <engine name="ios" spec="^4.3.1" />
     <engine name="android" spec="~6.3.0" />
+    <plugin name="cordova-plugin-ionic" spec="^5.0.10">
+        <variable name="APP_ID" value="A0567B07" />
+        <variable name="CHANNEL_NAME" value="ecampus_app" />
+        <variable name="UPDATE_METHOD" value="background|auto|none" />
+        <variable name="MAX_STORE" value="2" />
+    </plugin>
 </widget>
